@@ -1,0 +1,68 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title=""
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/locationButton"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_item_filter"
+        android:title="@string/filter" >
+        <menu>
+                <item
+                    android:id="@+id/price"
+                    android:title="@string/price"
+                    app:showAsAction="ifRoom|withText" >
+                    <menu>
+                        <item
+                            android:id="@+id/onedollar"
+                            android:title="@string/onedollar"
+                            app:showAsAction="ifRoom|withText" />
+
+                        <item
+                            android:id="@+id/twodollar"
+                            android:title="@string/twodollar"
+                            app:showAsAction="ifRoom|withText" />
+
+                        <item
+                            android:id="@+id/threedollar"
+                            android:title="@string/threedollar"
+                            app:showAsAction="ifRoom|withText" />
+
+                        <item
+                            android:id="@+id/showall"
+                            android:title="@string/showall"
+                            app:showAsAction="ifRoom|withText" />
+                    </menu>
+                </item>
+            <item
+                android:id="@+id/sortby"
+                android:title="@string/sortby"
+                app:showAsAction="ifRoom|withText" >
+                <menu>
+                    <item
+                        android:id="@+id/distance"
+                        android:title="@string/distance"
+                        app:showAsAction="ifRoom|withText" />
+
+                    <item
+                        android:id="@+id/rating"
+                        android:title="@string/rating"
+                        app:showAsAction="ifRoom|withText" />
+
+                    <item
+                        android:id="@+id/bestmatch"
+                        android:title="@string/bestmatch"
+                        app:showAsAction="ifRoom|withText" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

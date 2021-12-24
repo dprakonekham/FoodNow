@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FoodNow</string>
+    <string name="search">Search</string>
+    <string name="filter">Filters</string>
+    <string name="price">Price</string>
+    <string name="onedollar">$</string>
+    <string name="twodollar">$$</string>
+    <string name="threedollar">$$$</string>
+    <string name="showall">Show All</string>
+    <string name="sortby">Sort By</string>
+    <string name="distance">Distance</string>
+    <string name="rating">Rating</string>
+    <string name="bestmatch">Best Match</string>
+    <string name="goBtn">Go</string>
+</resources>
